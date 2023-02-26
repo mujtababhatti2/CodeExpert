@@ -6,6 +6,7 @@ const fontFamily = {
     appTextMedium: "Poppins-Medium",
     appTextLight: "Poppins-Light",
     appTextExtraBold: "Poppins-ExtraBold",
+    appMenloRegular: "Menlo-Regular",
 
 }
 export { fontFamily }
