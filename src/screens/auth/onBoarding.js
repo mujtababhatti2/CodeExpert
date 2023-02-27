@@ -25,6 +25,7 @@ const OnBoarding = ({ navigation }) => {
                     first={true}
                     sec={false}
                     third={false}
+                    skipPress={() => { navigation.navigate('App') }}
                 />
                 <OnBoardComp
                     screenColor={'#FCBD56'}
@@ -34,6 +35,8 @@ const OnBoarding = ({ navigation }) => {
                     sec={true}
                     first={false}
                     third={false}
+                    skipPress={() => { navigation.navigate('App') }}
+
                 />
                 <OnBoardComp
                     screenColor={'#E417D4'}
@@ -43,6 +46,8 @@ const OnBoarding = ({ navigation }) => {
                     third={true}
                     first={false}
                     sec={false}
+                    skipPress={() => { navigation.navigate('App') }}
+
                 />
             </Swiper>
         </View>
